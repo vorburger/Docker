@@ -1,5 +1,4 @@
 * auto-build feature on DockerHub?
-* Ant
 * README.md: Link to Example
 * Gradle
 * selftest.sh: TODO How to assert it printed "hello, world" in a bash shell script
