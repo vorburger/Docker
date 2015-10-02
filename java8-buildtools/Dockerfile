@@ -1,4 +1,5 @@
-FROM java:openjdk-8-jdk
+# FROM java:openjdk-8-jdk
+FROM maven:3.3.3-jdk-8 
 MAINTAINER Michael Vorburger <mike@vorburger.ch>
 
 # Workaround for https://github.com/docker/docker/issues/9299

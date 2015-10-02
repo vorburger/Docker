@@ -17,4 +17,6 @@ _TODO see ../.../Dockerfile example_
 
 # Background
 * https://github.com/docker-library/docs/tree/master/java#compile-your-app-inside-the-docker-container
+* https://github.com/carlossg/docker-maven
+
 
