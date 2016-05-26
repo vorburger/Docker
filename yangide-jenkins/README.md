@@ -3,13 +3,13 @@
 To build the image:
 
 ```console
-$ docker build -t vorburger:yangide-jenkins .
+$ docker build -t vorburger/yangide-jenkins .
 ```
 
 To run Jenkins from the image:
 
 ```console
-$ docker run --rm -p 8080:8080 vorburger:yangide-jenkins
+$ docker run --rm -p 8080:8080 vorburger/yangide-jenkins
 ```
 
 To manually create a job via the UI and then login to the image to peek around, e.g. to copy the job definition from:

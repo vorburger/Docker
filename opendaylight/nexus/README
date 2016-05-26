@@ -1,0 +1,12 @@
+Dockerfile with ready made Sonatype Nexus Maven Repository local mirror for nexus.OpenDaylight.org
+
+   docker build -t vorburger/opendaylight-nexus-mirror .
+
+   docker run -d -p 8081:8081 vorburger/opendaylight-nexus-mirror
+     ==> http://localhost:8081/nexus/
+
+   docker run --rm -it vorburger/opendaylight-nexus-mirror bash
+
+TODO WIP ... automatically set correct mirror configuration for http://nexus.opendaylight.org/
+
+
